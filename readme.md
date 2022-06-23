@@ -2,8 +2,8 @@
 
 Verificar version de Python y Django respectivamente
 ```bash
-py --version
-py -m django --version
+python --version
+python -m django --version
 ```
 
 Crear entorno virtual.
@@ -30,18 +30,18 @@ pip3 install psycopg2
 
 Ejecutar servidor
 ```bash
-py manage.py runserver
+python manage.py runserver
 ```
 
 Migraciones
 ```bash
-py manage.py makemigrations
-py manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 Crear superusuario
 ```bash
-py manage.py createsuperuser
+python manage.py createsuperuser
 ```
 
 ## Usuarios
